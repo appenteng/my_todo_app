@@ -1,5 +1,5 @@
 import csv
-with open('weather.csv', 'r') as file:
+with open('../weather.csv', 'r') as file:
     data = list(csv.reader(file))
 
 city=input('enter a city: ')
